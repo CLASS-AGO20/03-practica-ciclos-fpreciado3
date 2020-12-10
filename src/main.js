@@ -10,9 +10,15 @@ export default class App {
         return resultado;
     }
 
-    convertirAString() {
+    convertirAString(numero) {
         let string = "";
         let n = 1;
+
+        while(n <= numero){
+            string+= "*";
+            string = string+"*";
+            n++;
+        }
     }
 }
 
