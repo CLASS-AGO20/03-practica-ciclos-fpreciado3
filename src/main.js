@@ -37,6 +37,10 @@ export default class App {
         return i;
     }
     
+    elevar(numero, potencia) {
+        let resultado = 1;
+        let n = 1;
+    }
 }
 
 let app = new App();
