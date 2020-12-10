@@ -19,6 +19,8 @@ export default class App {
             string = string+"*";
             n++;
         }
+
+        return string;
     }
 }
 
