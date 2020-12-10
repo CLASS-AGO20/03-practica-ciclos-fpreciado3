@@ -45,3 +45,5 @@ let app = new App();
 console.log(app.factorial(5));
 //Prueba de convertirAString()
 console.log(app.convertirAString(8));
+//Prueba de obtenerDivisibles()
+console.log(app.obtenerDivisibles(8));
