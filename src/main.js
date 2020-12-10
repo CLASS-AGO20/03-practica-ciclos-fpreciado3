@@ -40,6 +40,12 @@ export default class App {
     elevar(numero, potencia) {
         let resultado = 1;
         let n = 1;
+
+        while(n <= potencia) {
+            resultado *= numero;
+            n++;
+        }
+        return resultado;
     }
 }
 
