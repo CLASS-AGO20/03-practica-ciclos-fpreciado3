@@ -26,6 +26,13 @@ export default class App {
     obtenerDivisibles(numero) {
         let i = 0;
         let divisores = 1;
+
+        do{
+            if(numero%divisores === 0) {
+                i++;
+            }
+            divisores++;
+        }while(divisores<=numero);
     }
     
 }
