@@ -57,3 +57,5 @@ console.log(app.factorial(5));
 console.log(app.convertirAString(8));
 //Prueba de obtenerDivisibles()
 console.log(app.obtenerDivisibles(8));
+//Prueba de elevar()
+console.log(app.elevar(3,3));
