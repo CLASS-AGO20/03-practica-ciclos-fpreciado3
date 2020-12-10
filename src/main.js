@@ -33,6 +33,8 @@ export default class App {
             }
             divisores++;
         }while(divisores<=numero);
+
+        return i;
     }
     
 }
