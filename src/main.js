@@ -9,6 +9,11 @@ export default class App {
 
         return resultado;
     }
+
+    convertirAString() {
+        let string = "";
+        let n = 1;
+    }
 }
 
 let app = new App();
