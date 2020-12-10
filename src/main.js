@@ -22,6 +22,12 @@ export default class App {
 
         return string;
     }
+
+    obtenerDivisibles(numero) {
+        let i = 0;
+        let divisores = 1;
+    }
+    
 }
 
 let app = new App();
