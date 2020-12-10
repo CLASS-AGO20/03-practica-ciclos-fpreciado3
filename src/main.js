@@ -16,7 +16,7 @@ export default class App {
 
         while(n <= numero){
             string+= "*";
-            string = string+"*";
+            string - string+"*";
             n++;
         }
 
@@ -28,3 +28,5 @@ let app = new App();
 
 //Prueba de factorial()
 console.log(app.factorial(5));
+//Prueba de convertirAString()
+console.log(app.convertirAString(8));
